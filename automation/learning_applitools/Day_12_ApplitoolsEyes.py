@@ -13,7 +13,7 @@ driver.maximize_window()
 
 #Search for 'appitools'
 search_Box= driver.find_element(By.NAME, "q")
-search_Box.send_keys("applitools")
+search_Box.send_keys("learning_applitools")
 search_Box.send_keys(Keys.RETURN)
 time.sleep(2)
 
@@ -32,7 +32,7 @@ eyes.force_full_page_screenshot = True
 eyes.match_level=MatchLevel.LAYOUT
 
 try:
-    eyes.open(driver, "Bing App", "Bing search Appitools + Functional Test)
+    eyes.open(driver, "Bing App", "Bing search Appitools")
     eyes.check_window("Full search result page")
 
     search_Box=driver.find_element(By.NAME, "q")
