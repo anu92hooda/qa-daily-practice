@@ -1,7 +1,7 @@
 #Calculator (add, subtract, multiply, divide with user input)
-numb1=int(input("Please enter a number "))
-numb2=int(input("Please enter another number"))
-opr=input("Please select the operators you want to use Add  or Subtract or Multiply  or Divide  ")
+#numb1=int(input("Please enter a number "))
+#numb2=int(input("Please enter another number"))
+#opr=input("Please select the operators you want to use Add  or Subtract or Multiply  or Divide  ")
 
 def calculator(num1,num2,operator):
 
@@ -26,7 +26,7 @@ def calculator(num1,num2,operator):
 
 
 
-calculator(numb1,numb2,opr)
+#calculator(numb1,numb2,opr)
 
 
 # function to check if number is prime or not

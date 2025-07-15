@@ -43,13 +43,19 @@ def dayalerts():
 
 
 
+
     except Exception as e:
 
         os.makedirs("screenshots", exist_ok=True)
+
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
         ss_path = f"screenshots/failure_{timestamp}.png"
+
         driver.save_screenshot(ss_path)
+
         print(f"there is an error{e}")
+
         print(f" Screenshot save at: {ss_path}")
 
 

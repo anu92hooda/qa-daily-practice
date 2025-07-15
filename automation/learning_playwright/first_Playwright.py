@@ -1,4 +1,3 @@
-from pickle import FALSE
 
 from playwright.sync_api import sync_playwright
 
@@ -37,6 +36,7 @@ def run_test2():
         page.click("button[type= 'submit']")
 
         page.wait_for_selector(".flash.success")
+
 
         success_message= page.text_content(".flash.success")
         print("login success", success_message.strip())
