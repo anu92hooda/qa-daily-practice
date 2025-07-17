@@ -1,0 +1,66 @@
+import os
+from turtledemo.penrose import start
+
+from playwright.sync_api import sync_playwright
+from playwright.sync_api import expect , Page
+from pytest_playwright.pytest_playwright import playwright
+
+
+def test_day22_first():
+
+    with sync_playwright() as p:
+        browser= p.chromium.launch(headless=False)
+        page= browser.new_page()
+
+        page.goto("https://playwright.dev/")
+
+        # visible page ss
+        page.screenshot(path= "screenshots/visible_part.png")
+        print("visible SS saved ")
+
+        # full page
+        page.screenshot(path= "screenshots/full_page.png", full_page=True)
+        print("full page SS saved ")
+
+        # element ss
+        element= page.locator("text=Get Started")
+        element.screenshot(path= "screenshots/get_started.png")
+        print("element SS saved ")
+
+
+        browser.close()
+
+#test_day22_first()
+
+def test_day22_second():
+
+    os.makedirs("trace", exist_ok=True)
+
+    with sync_playwright() as p:
+        browser= p.chromium.launch(headless=False)
+        context=browser.new_context()
+        page= context.new_page()
+
+        # staty tracing
+        context.tracing.start(screenshots=True, snapshots=True , sources=True)
+
+        page.goto("https://playwright.dev")
+        page.click("text=Get Started")
+
+        # stop tracing and save file
+        context.tracing.stop(path= "trace/trace.zip")
+
+        print("completed")
+        browser.close()
+
+test_day22_second()
+
+
+
+
+
+
+
+
+
+

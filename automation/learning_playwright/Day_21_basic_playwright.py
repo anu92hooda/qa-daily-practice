@@ -77,7 +77,7 @@ def test_day21_third():
 
         browser.close()
 
-test_day21_third()
+#test_day21_third()
 
 
 
