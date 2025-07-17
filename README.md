@@ -1,19 +1,13 @@
-# AI QA Visual Testing Portfolio
+## QA Daily Practice ##
 
-This repo contains end-to-end QA automation practice using:
-- Python
-- Postman (API)
-- Selenium
-- Applitools (Visual AI Testing)
-- SQL + Metrics
+This repository contains my **daily QA learning and hands-on automation practice**, using real-world tools and techniques across API, UI, and backend testing.
 
-## 📁 Folder Overview
+---
 
-### python_basics/
-Core Python programs, validation logic, and small projects
+##  Tools & Technologies Covered  ##
 
-### automation/postman/
-Postman collections with chaining, environment setup, and response tests
-
-### Day-wise Practice Files
-See individual filenames like `Day10_Exception_Handling.py` for organized, day-based progress
+- ✅ Python (logic, exceptions, data handling)
+- ✅ Postman (API automation + GraphQL)
+- ✅ Selenium (Web UI + data-driven testing)
+- ✅ Applitools (Visual AI testing)
+- ✅ Playwright, GraphQL, Logging 
