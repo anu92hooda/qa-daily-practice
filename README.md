@@ -1,13 +1,21 @@
-## QA Daily Practice ##
+# 📚 QA Daily Practice
 
-This repository contains my **daily QA learning and hands-on automation practice**, using real-world tools and techniques across API, UI, and backend testing.
+This repository documents my **daily QA learning and automation practice**, using real-world tools and techniques across API, UI, and backend testing layers.
 
 ---
 
-##  Tools & Technologies Covered  ##
+## 🛠️ Tools & Technologies Covered
 
-- ✅ Python (logic, exceptions, data handling)
-- ✅ Postman (API automation + GraphQL)
-- ✅ Selenium (Web UI + data-driven testing)
-- ✅ Applitools (Visual AI testing)
-- ✅ Playwright, GraphQL, Logging 
+- ✅ **Python** – logic, exceptions, data handling
+- ✅ **Postman** – REST API + GraphQL automation
+- ✅ **Selenium** – web UI testing + data-driven framework
+- ✅ **Applitools** – Visual AI validation
+- ✅ **Playwright** – modern browser automation
+- ✅ **GraphQL**, **Logging** and structured test execution
+
+---
+
+## 🔗 Related Project
+
+📦 To see how I put this learning into a real-world QA framework,  
+👉 check out my companion repo: [qa-e2e-projects](https://github.com/anu92hooda/qa-e2e-projects)
