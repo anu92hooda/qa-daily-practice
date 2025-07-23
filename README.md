@@ -18,4 +18,4 @@ This repository documents my **daily QA learning and automation practice**, usin
 ## 🔗 Related Project
 
 📦 To see how I put this learning into a real-world QA framework,  
-👉 check out my companion repo: [qa-e2e-projects](https://github.com/anu92hooda/qa-e2e-projects)
+👉 check out my companion repo: [aws-coffee-api-dynamo](https://github.com/anu92hooda/aws-coffee-api-dynamo)
